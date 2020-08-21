@@ -1,5 +1,6 @@
-import {todoGet} from './todo/get'
+import {todoGet, todoUpdate} from './todo/todo'
 
 export const handler = [
-  todoGet
+  todoGet,
+  todoUpdate
 ]
